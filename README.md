@@ -2,7 +2,7 @@
 
 A RESTful API created to serve needed information / details of a particular product from the Amazon market store.
 
-### Endpoints:
+### Endpoints :
 
 (1) ``` /products/:productId ``` : Lists all product details of the product id parsed as a parameter.<br/>
 Some of the major important properties include:
@@ -37,7 +37,7 @@ For instance : https://vsh-amzn-scrapper.herokuapp.com/products/B08JQN8DGZ/offer
 For instance : https://vsh-amzn-scrapper.herokuapp.com/search/teapots
 
 
-### How to find ProductID: <br/>
+### How to find ProductID : <br/>
 
 Globally Amazon URL's follow the same pattern : 
 ```
@@ -46,4 +46,6 @@ amazon.countrycode/prod-name-somedetails/dp/productId?mid...
 Therefore the product id resides right besides dp/. As can be seen in the below example : <br/>
 ![image](https://user-images.githubusercontent.com/59518168/155880718-a9179d4d-25af-478b-9cf4-7be9083a2081.png)
 
-Note : This project uses [ScraperAPI](https://www.scraperapi.com/) to scrap Amazon's website that passes plain web data from which the important stuff is parsed as JSON into my API.
+### Note : 
+This project uses [ScraperAPI](https://www.scraperapi.com/) to scrap Amazon's website that passes plain web data from which the important stuff is parsed as JSON into my API.
+
