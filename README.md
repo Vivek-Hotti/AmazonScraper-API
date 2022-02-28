@@ -1,6 +1,6 @@
 # AmazonScraper-API
 
-A RESTful API created to serve needed information / details of a particular product from the Amazon market store.
+An API created to serve needed information / details of a particular product from the Amazon market store.
 
 ### Endpoints :
 
@@ -35,7 +35,8 @@ For instance : https://vsh-amzn-scrapper.herokuapp.com/products/B08JQN8DGZ/offer
 
 (4) ``` /search/:searchQuery ``` : Lists the generated results after a natural query to the Amazon Marketplace Search Engine. <br/>
 For instance : https://vsh-amzn-scrapper.herokuapp.com/search/teapots
-
+<br /> <br />
+<i> Please give the site some load, or reload if you get any error.</i>
 
 ### How to find ProductID : <br/>
 
